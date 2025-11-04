@@ -1,7 +1,7 @@
-const IS_PROD = false;
+const IS_PROD = true;
 
 const server = IS_PROD
   ? "https://my-video-call-h35l.onrender.com"
-  : "http://localhost:5000";
+  : "http://localhost:8001";
 
 export default server;
